@@ -1,3 +1,10 @@
+body {
+  background-image: url("summer-winter-concepts-seasons-nature-ecology-seasons-concepts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 h1 {
   padding: 10px;
   text-align: center;
@@ -39,6 +46,7 @@ p.date {
   font-family: "Fredoka One", cursive;
   font-family: "Tilt Neon", cursive;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.2);
+  opacity: 93%;
 }
 
 button#location {
