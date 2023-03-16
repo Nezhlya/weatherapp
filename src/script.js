@@ -9,6 +9,7 @@ let days = [
   "Friday",
   "Saturday",
 ];
+
 let p = document.querySelector("p.date");
 let day = days[currentDate.getDay()];
 let hour = currentDate.getHours();
