@@ -35,8 +35,6 @@ let form = document.querySelector("#searchCity");
 form.addEventListener("submit", enterCity);
 
 function showWeather(response) {
-  console.log("Hello from Housam");
-  console.log(response);
   let temp = document.querySelector("span#temp");
   temp.innerHTML = `Currently 
   ${Math.round(response.data.main.temp)}℃`;
